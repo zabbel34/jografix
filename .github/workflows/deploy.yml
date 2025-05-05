@@ -23,3 +23,7 @@ jobs:
                   REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
                   TARGET: ${{ secrets.TARGET }}
                   EXCLUDE: "/.ddev/, /.github/, /storage/, /vendor/, /web/cpresources/, /web/public/, '/web/.htaccess, '/.env/, /.gitgnore"
+                  SCRIPT_BEFORE: |
+                    /opt/php82/bin/php craft off
+                  SCRIPTZ_AFTER: |
+                    /opt/php82/bin/php craft up
