@@ -1,0 +1,8 @@
+baseUrl: $PRIMARY_SITE_URL
+handle: default
+hasUrls: true
+language: de-CH
+name: jografix
+primary: true
+siteGroup: 969c9c0a-6b56-436e-a99e-546445324e12 # jografix
+sortOrder: 1
