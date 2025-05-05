@@ -1,4 +1,4 @@
-dateModified: 1746442194
+dateModified: 1746447935
 email:
   fromEmail: $FROM_EMAIL
   fromName: $FROM_NAME
@@ -19,6 +19,10 @@ fs:
       path: '@webroot/public'
     type: craft\fs\Local
     url: '@web/public'
+graphql:
+  publicToken:
+    enabled: false
+    expiryDate: null
 meta:
   __names__:
     0a5f057c-3932-4cd6-a320-78ffe77f827d: Config # Config
