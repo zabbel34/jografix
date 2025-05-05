@@ -1,4 +1,4 @@
-dateModified: 1746429534
+dateModified: 1746430483
 email:
   fromEmail: $FROM_EMAIL
   fromName: $FROM_NAME
@@ -22,8 +22,19 @@ fs:
 meta:
   __names__:
     5a939ab0-73c5-4be1-a179-c17821614719: jografix # jografix
+    6fa806b2-1372-4b59-921a-7414bf7345b9: 'Rich Text' # Rich Text
+    19c357d7-428e-4637-934e-3060922c7cfa: Simple # Simple
+    054c4dcb-3a77-42e2-8dbc-27868a31e6dc: Site # Site
     969c9c0a-6b56-436e-a99e-546445324e12: jografix # jografix
+    a34cc252-6d83-40b8-b291-41d4b7ccb812: home # home
+    bd8415b9-b2a4-4b5d-86fb-aaf8c87291e4: Home # Home
     cb1c83ab-e357-4c4a-b6f4-b470200258db: Public # Public
+    d1905640-7842-4e3b-85dd-eff015061a6c: Site # Site
+plugins:
+  ckeditor:
+    edition: standard
+    enabled: true
+    schemaVersion: 3.0.0.0
 system:
   edition: solo
   live: true
