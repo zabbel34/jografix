@@ -24,6 +24,6 @@ jobs:
                   TARGET: ${{ secrets.TARGET }}
                   EXCLUDE: "/.ddev/, /.github/, /storage/, /vendor/, /web/cpresources/, /web/public/, '/web/.htaccess, '/.env/, /.gitgnore, /.parcel-cache, /node_modules"
                   SCRIPT_BEFORE: |
-                    /opt/php82/bin/php craft off
+                    /opt/php82/bin/php /devschriftvariete/craft off
                   SCRIPT_AFTER: |
-                    /opt/php82/bin/php craft up
+                    /opt/php82/bin/php /devschriftvariete/craft up
