@@ -3,6 +3,8 @@
         <title>{% block title %}{{ entry.title }} - Default{% endblock %}</title>
     </head>
     <body>
+        {% include "layout/_navigation.twig" %}
         {% block content %}{% endblock %}
+        {% include "layout/_footer.twig" %}
     </body>
 </html>

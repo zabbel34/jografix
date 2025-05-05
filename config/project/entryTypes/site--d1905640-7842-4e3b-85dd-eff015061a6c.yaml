@@ -35,6 +35,23 @@ fieldLayouts:
             userCondition: null
             warning: null
             width: 100
+          -
+            dateAdded: '2025-05-05T08:54:56+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 8fc98430-343a-48be-b484-8c8249b8c44b # Switch On
+            handle: showInNavigation
+            includeInCards: false
+            instructions: null
+            label: 'Show In Navigation'
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 39fd946b-1475-46cd-bbc6-1a1e8d070e40
+            userCondition: null
+            warning: null
+            width: 100
         name: Inhalt
         uid: 2e0739fa-484a-48f1-80f3-b4605f03f27d
         userCondition: null

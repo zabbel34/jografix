@@ -1,0 +1,38 @@
+color: null
+fieldLayouts:
+  6d300fea-1c5a-467b-869c-3cb38f1644af:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-05T09:09:14+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6fa806b2-1372-4b59-921a-7414bf7345b9 # Rich Text
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: de143345-1db5-48e5-a357-b1cea92a065c
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 3911d713-2442-4afa-bcfe-95c0abfadc28
+        userCondition: null
+handle: projectsContentBlocksRichText
+hasTitleField: false
+icon: null
+name: 'Projects - Content Blocks - Rich Text'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

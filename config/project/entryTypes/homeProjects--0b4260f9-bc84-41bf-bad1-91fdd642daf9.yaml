@@ -1,0 +1,55 @@
+color: null
+fieldLayouts:
+  da929df7-3591-45ab-8d40-b129e52aa3e1:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-05T09:13:14+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: f35a8ddb-8adc-4c06-9e40-7a3f4072dc8c # Projects Entries Single
+            handle: entry
+            includeInCards: false
+            instructions: null
+            label: Entry
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: db00e180-e695-4e7d-a61f-26975a20291e
+            userCondition: null
+            warning: null
+            width: 50
+          -
+            dateAdded: '2025-05-05T09:13:14+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 30962351-cfa5-4c8b-a3c8-393403e8e4e9 # Size
+            handle: null
+            includeInCards: false
+            instructions: null
+            label: null
+            providesThumbs: false
+            required: false
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: 5b7a7e62-eb2f-42a9-90e9-2d7875c56a67
+            userCondition: null
+            warning: null
+            width: 50
+        name: Inhalt
+        uid: 3e3bf273-fab7-4bf1-b703-ce7c9ba0ac60
+        userCondition: null
+handle: homeProjects
+hasTitleField: false
+icon: null
+name: 'Home - Projects'
+showSlugField: false
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

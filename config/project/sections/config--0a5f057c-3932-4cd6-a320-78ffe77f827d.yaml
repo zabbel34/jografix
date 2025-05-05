@@ -1,0 +1,16 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: 31716fba-b4e3-4a11-be03-0077a21fb6e6 # Config
+handle: config
+maxAuthors: 1
+name: Config
+propagationMethod: all
+siteSettings:
+  5a939ab0-73c5-4be1-a179-c17821614719: # jografix
+    enabledByDefault: true
+    hasUrls: false
+    template: null
+    uriFormat: null
+type: single

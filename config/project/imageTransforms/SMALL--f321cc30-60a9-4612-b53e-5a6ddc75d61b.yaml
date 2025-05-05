@@ -1,0 +1,11 @@
+fill: null
+format: webp
+handle: SMALL
+height: 640
+interlace: none
+mode: crop
+name: Small
+position: center-center
+quality: 80
+upscale: false
+width: 640

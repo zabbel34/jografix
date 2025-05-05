@@ -1,0 +1,24 @@
+name: deploy
+on:
+    push:
+        - master
+jobs:
+    deploy:
+        runs-on: ubuntu-latest
+        steps:
+            - name: deploy
+              uses: easingthemes/ssh-deploy@main
+              with:
+                  SSH_PRIVATE_KEY: ${{ secrets.SSH_PRIVATE_KEY }}
+                  ARGS: "-rlgoDzvc -i --delete"
+                  SOURCE: "dist/"
+                  REMOTE_HOST: ${{ secrets.REMOTE_HOST }}
+                  REMOTE_USER: ${{ secrets.REMOTE_USER }}
+                  REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
+                  TARGET: ${{ secrets.REMOTE_TARGET }}
+                  EXCLUDE: "/.ddev/, /.github/, /storage/, /vendor/, /web/cpresources/, /web/public/, '/web/.htaccess, '/.env/, /.gitgnore",
+                  SCRIPT_BEFORE: |
+                    ls
+                    php craft off
+                  SCRIPT_AFTER: |
+                    php craft up

@@ -3,6 +3,21 @@
 {% block title %}{{ entry.title }} - Override{% endblock %}
 
 {% block content %}
-    {{ entry.title }}
-    {{ entry.lead }}
+    <ul>
+        {% for block in entry.homeProjects %}
+            <li>
+                {% set project = block.entry.one() %}
+                <a href="{{ project.url }}">
+                    {% set previewImage = project.previewImage.one().setTransform({ transform: 'BIG' }) %}
+                    <picture>
+                        <source 
+                            srcset="{{ previewImage.getSrcSet(['320w', '640w', '960w', '1024w', '1280w']) }}" 
+                            sizes="(min-width: 768px) 50vw, 100vw">
+                            <img src="previewImage.url" title="{{ project.title }}">
+                        </source>
+                    </picture>
+                </a>
+            </li>
+        {% endfor %}
+    </ul>
 {% endblock %}

@@ -1,4 +1,4 @@
-dateModified: 1746430483
+dateModified: 1746442194
 email:
   fromEmail: $FROM_EMAIL
   fromName: $FROM_NAME
@@ -13,23 +13,40 @@ email:
   transportType: craft\mail\transportadapters\Smtp
 fs:
   public:
-    hasUrls: false
+    hasUrls: true
     name: Public
     settings:
       path: '@webroot/public'
     type: craft\fs\Local
-    url: null
+    url: '@web/public'
 meta:
   __names__:
+    0a5f057c-3932-4cd6-a320-78ffe77f827d: Config # Config
+    0b4260f9-bc84-41bf-bad1-91fdd642daf9: 'Home - Projects' # Home - Projects
+    1b01d95f-9856-4142-ae9f-4b090c98a8b5: 'Assets Image Single' # Assets Image Single
     5a939ab0-73c5-4be1-a179-c17821614719: jografix # jografix
     6fa806b2-1372-4b59-921a-7414bf7345b9: 'Rich Text' # Rich Text
+    8fc98430-343a-48be-b484-8c8249b8c44b: 'Switch On' # Switch On
     19c357d7-428e-4637-934e-3060922c7cfa: Simple # Simple
     054c4dcb-3a77-42e2-8dbc-27868a31e6dc: Site # Site
+    69ab21ea-d367-4850-8d89-70ac7d44078a: 'Link All' # Link All
+    97a072ee-c7fb-4fd2-be1d-1980bc22b19f: Projects # Projects
     969c9c0a-6b56-436e-a99e-546445324e12: jografix # jografix
+    8097e50c-6136-4e7d-90a4-1a48b93b8dcc: Big # Big
+    31716fba-b4e3-4a11-be03-0077a21fb6e6: Config # Config
+    06959091-c8aa-45bb-9d31-276a214463e0: 'Projects - Content Blocks - Rich Text' # Projects - Content Blocks - Rich Text
+    30962351-cfa5-4c8b-a3c8-393403e8e4e9: Size # Size
+    a11d632c-412c-4bf1-948d-a8cf2f39cfc7: 'Projects - Content Blocks - Images' # Projects - Content Blocks - Images
     a34cc252-6d83-40b8-b291-41d4b7ccb812: home # home
+    b07e9f58-f89e-41c7-8c3c-ec34c8fb70a1: 'Home - Projects' # Home - Projects
     bd8415b9-b2a4-4b5d-86fb-aaf8c87291e4: Home # Home
+    c4408594-be1a-4f8d-bc31-171582218b3c: 'Assets Image Multi' # Assets Image Multi
     cb1c83ab-e357-4c4a-b6f4-b470200258db: Public # Public
     d1905640-7842-4e3b-85dd-eff015061a6c: Site # Site
+    f6c73dea-eb4d-42ff-a6db-4a3c30ae6062: 'Projects - Content Blocks' # Projects - Content Blocks
+    f35a8ddb-8adc-4c06-9e40-7a3f4072dc8c: 'Projects Entries Single' # Projects Entries Single
+    f321cc30-60a9-4612-b53e-5a6ddc75d61b: Small # Small
+    fbe7007e-b1da-4c3c-85cc-bb31336bb6b9: Projects # Projects
 plugins:
   ckeditor:
     edition: standard

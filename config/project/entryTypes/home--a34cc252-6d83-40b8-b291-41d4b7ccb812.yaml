@@ -36,19 +36,19 @@ fieldLayouts:
             warning: null
             width: 100
           -
-            dateAdded: '2025-05-05T07:32:10+00:00'
+            dateAdded: '2025-05-05T09:13:32+00:00'
             editCondition: null
             elementCondition: null
-            fieldUid: 6fa806b2-1372-4b59-921a-7414bf7345b9 # Rich Text
-            handle: lead
+            fieldUid: b07e9f58-f89e-41c7-8c3c-ec34c8fb70a1 # Home - Projects
+            handle: null
             includeInCards: false
             instructions: null
-            label: Lead
+            label: null
             providesThumbs: false
-            required: false
+            required: true
             tip: null
             type: craft\fieldlayoutelements\CustomField
-            uid: 2cafd2bd-2bc3-484d-be14-fe6fe9b8fe40
+            uid: 36ed50fa-04a3-41f9-997c-3b167119d606
             userCondition: null
             warning: null
             width: 100

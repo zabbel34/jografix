@@ -1,0 +1,9 @@
+{% set config = craft
+    .entries()
+    .section('config')
+    .one()
+%}
+
+<footer>
+    <div>{{ config.footerText }}</div>
+</footer>

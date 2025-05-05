@@ -4,7 +4,7 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "bcd5aae2d372f995fc89847c7564e72b",
+    "content-hash": "0d40969618c9291f406ea6c2954d1488",
     "packages": [
         {
             "name": "bacon/bacon-qr-code",
@@ -6811,6 +6811,75 @@
             "time": "2024-09-29T15:01:53+00:00"
         },
         {
+            "name": "nystudio107/craft-autocomplete",
+            "version": "1.12.2",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/nystudio107/craft-autocomplete.git",
+                "reference": "903d74ed3315a0c61297700063ba6071d4e44f6d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/nystudio107/craft-autocomplete/zipball/903d74ed3315a0c61297700063ba6071d4e44f6d",
+                "reference": "903d74ed3315a0c61297700063ba6071d4e44f6d",
+                "shasum": ""
+            },
+            "require": {
+                "craftcms/cms": "^3.0.0 || ^4.0.0 || ^5.0.0"
+            },
+            "require-dev": {
+                "craftcms/ecs": "dev-main",
+                "craftcms/phpstan": "dev-main",
+                "craftcms/rector": "dev-main"
+            },
+            "type": "yii2-extension",
+            "extra": {
+                "bootstrap": "nystudio107\\autocomplete\\Autocomplete"
+            },
+            "autoload": {
+                "psr-4": {
+                    "nystudio107\\autocomplete\\": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "MIT"
+            ],
+            "authors": [
+                {
+                    "name": "nystudio107",
+                    "homepage": "https://nystudio107.com"
+                },
+                {
+                    "name": "PutYourLightsOn",
+                    "homepage": "https://putyourlightson.com"
+                }
+            ],
+            "description": "Provides Twig template IDE autocomplete of Craft CMS & plugin variables",
+            "keywords": [
+                "Craft",
+                "auto",
+                "autocomplete",
+                "cms",
+                "complete",
+                "craftcms",
+                "symfony",
+                "twig"
+            ],
+            "support": {
+                "docs": "https://github.com/nystudio107/craft-autocomplete/blob/v1/README.md",
+                "issues": "https://github.com/nystudio107/craft-autocomplete/issues",
+                "source": "https://github.com/nystudio107/craft-autocomplete"
+            },
+            "funding": [
+                {
+                    "url": "https://github.com/khalwat",
+                    "type": "github"
+                }
+            ],
+            "time": "2024-09-23T17:51:10+00:00"
+        },
+        {
             "name": "psy/psysh",
             "version": "v0.12.8",
             "source": {
@@ -7050,11 +7119,11 @@
     ],
     "aliases": [],
     "minimum-stability": "dev",
-    "stability-flags": [],
+    "stability-flags": {},
     "prefer-stable": true,
     "prefer-lowest": false,
-    "platform": [],
-    "platform-dev": [],
+    "platform": {},
+    "platform-dev": {},
     "platform-overrides": {
         "php": "8.2"
     },
