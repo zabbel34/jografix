@@ -22,7 +22,7 @@ jobs:
                   REMOTE_USER: ${{ secrets.REMOTE_USER }}
                   REMOTE_PORT: ${{ secrets.REMOTE_PORT }}
                   TARGET: ${{ secrets.TARGET }}
-                  EXCLUDE: "/.ddev/, /.github/, /storage/, /vendor/, /web/cpresources/, /web/public/, '/web/.htaccess, '/.env, /.gitgnore, /.parcel-cache, /node_modules, /package-lock.json, /packagw.json, /js, /.git"
+                  EXCLUDE: "/.ddev/, /.github/, /storage/, /vendor/, /web/cpresources/, /web/public/, /web/.htaccess, /.env, /.gitignore, /.parcel-cache, /node_modules, /package-lock.json, /package.json, /js, /.git"
                   SCRIPT_BEFORE: |
                     /opt/php82/bin/php /devschriftvariete/craft off
                   SCRIPT_AFTER: |
