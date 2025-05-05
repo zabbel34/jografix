@@ -1,0 +1,9 @@
+{% extends "layout/_base.twig" %}
+
+{% block title %}{{ entry.title }} - Override{% endblock %}
+
+{% block content %}
+    {% for block in entry.projectsContentBlocks %}
+        {% include "projects/_"  ~ block.type|kebab ~ ".twig"  with { block: block } %}
+    {% endfor %}
+{% endblock %}

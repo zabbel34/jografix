@@ -2,7 +2,9 @@
 /.idea
 /vendor
 /web/public
-
+/.parcel-cache
+/node_modules
+/storage
 .DS_Store
 .gitignore
 config/license.key

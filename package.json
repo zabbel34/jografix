@@ -1,0 +1,14 @@
+{
+  "name": "my-library",
+  "version": "1.0.0",
+  "source": "js/index.js",
+  "main": "web/dist/main.js",
+  "module": "web/dist/module.js",
+  "scripts": {
+    "watch": "parcel watch",
+    "build": "parcel build"
+  },
+  "devDependencies": {
+    "parcel": "latest"
+  }
+}
