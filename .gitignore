@@ -1,4 +1,8 @@
 /.env
 /.idea
 /vendor
+/web/public
+
 .DS_Store
+.gitignore
+config/license.key

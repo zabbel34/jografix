@@ -1,18 +1,36 @@
-dateModified: 1746428506
+dateModified: 1746429534
 email:
-  fromEmail: info@jografix.ch
-  fromName: jografix
-  transportType: craft\mail\transportadapters\Sendmail
+  fromEmail: $FROM_EMAIL
+  fromName: $FROM_NAME
+  replyToEmail: $REPLY_TO_EMAIL
+  template: null
+  transportSettings:
+    host: $SMTP_HOST
+    password: $SMTP_PASSWORD
+    port: $SMTP_PORT
+    useAuthentication: $SMTP_AUTH
+    username: $SMTP_USER
+  transportType: craft\mail\transportadapters\Smtp
+fs:
+  public:
+    hasUrls: false
+    name: Public
+    settings:
+      path: '@webroot/public'
+    type: craft\fs\Local
+    url: null
 meta:
   __names__:
     5a939ab0-73c5-4be1-a179-c17821614719: jografix # jografix
     969c9c0a-6b56-436e-a99e-546445324e12: jografix # jografix
+    cb1c83ab-e357-4c4a-b6f4-b470200258db: Public # Public
 system:
   edition: solo
   live: true
   name: jografix
+  retryDuration: null
   schemaVersion: 5.7.0.3
-  timeZone: America/Los_Angeles
+  timeZone: Europe/Zurich
 users:
   allowPublicRegistration: false
   defaultGroup: null
