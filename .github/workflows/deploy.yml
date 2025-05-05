@@ -7,6 +7,11 @@ jobs:
     deploy:
         runs-on: ubuntu-latest
         steps:
+            - name: checkout
+              uses: actions/checkout@v3
+            - run: |
+                echo ${{ github.workspace }}
+                echo $GITHUB_WORKSPACE
             - name: deploy
               uses: easingthemes/ssh-deploy@main
               with:
