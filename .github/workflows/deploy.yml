@@ -26,6 +26,6 @@ jobs:
                   SCRIPT_BEFORE: |
                     /opt/php82/bin/php /devschriftvariete/craft off
                   SCRIPT_AFTER: |
-                    /opt/php82/bin/php /usr/bin/composer update
+                    /opt/php82/bin/php /usr/bin/composer update --working-dir="/devschriftvariete"
                     /opt/php82/bin/php /devschriftvariete/craft on
                     /opt/php82/bin/php /devschriftvariete/craft up
