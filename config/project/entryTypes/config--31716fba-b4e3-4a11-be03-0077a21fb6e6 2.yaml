@@ -1,0 +1,55 @@
+color: null
+fieldLayouts:
+  16aa24a0-1cd5-49b7-8ee5-2a13e3abf3b0:
+    tabs:
+      -
+        elementCondition: null
+        elements:
+          -
+            dateAdded: '2025-05-05T08:59:16+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 6fa806b2-1372-4b59-921a-7414bf7345b9 # Rich Text
+            handle: footerText
+            includeInCards: false
+            instructions: null
+            label: 'Footer Text'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: ff5d37b8-c970-4324-8458-c5a59908cf93
+            userCondition: null
+            warning: null
+            width: 100
+          -
+            dateAdded: '2025-05-05T08:59:16+00:00'
+            editCondition: null
+            elementCondition: null
+            fieldUid: 69ab21ea-d367-4850-8d89-70ac7d44078a # Link All
+            handle: instagramUrl
+            includeInCards: false
+            instructions: null
+            label: 'Instagram Url'
+            providesThumbs: false
+            required: true
+            tip: null
+            type: craft\fieldlayoutelements\CustomField
+            uid: fe215f5d-d43b-44de-81c4-543b6dd1acfd
+            userCondition: null
+            warning: null
+            width: 100
+        name: Inhalt
+        uid: 07cc2098-15c3-490f-b38d-e54e1b033f4f
+        userCondition: null
+handle: config
+hasTitleField: false
+icon: null
+name: Config
+showSlugField: true
+showStatusField: true
+slugTranslationKeyFormat: null
+slugTranslationMethod: site
+titleFormat: null
+titleTranslationKeyFormat: null
+titleTranslationMethod: site

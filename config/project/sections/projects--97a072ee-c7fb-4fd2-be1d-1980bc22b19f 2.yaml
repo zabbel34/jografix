@@ -1,0 +1,31 @@
+defaultPlacement: end
+enableVersioning: true
+entryTypes:
+  -
+    uid: fbe7007e-b1da-4c3c-85cc-bb31336bb6b9 # Projects
+handle: projects
+maxAuthors: 1
+name: Projects
+previewTargets:
+  -
+    __assoc__:
+      -
+        - label
+        - 'Primäre Eintrag Seite'
+      -
+        - urlFormat
+        - '{url}'
+      -
+        - refresh
+        - '1'
+propagationMethod: all
+siteSettings:
+  5a939ab0-73c5-4be1-a179-c17821614719: # jografix
+    enabledByDefault: true
+    hasUrls: true
+    template: projects/_entry.twig
+    uriFormat: 'projekte/{slug}'
+structure:
+  maxLevels: 1
+  uid: 09434330-4da7-4522-a364-4f2f595b5641
+type: structure
